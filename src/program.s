@@ -1,4 +1,4 @@
-// This is a RISC-V assembly program
+
 .data
 	// Data section
 
