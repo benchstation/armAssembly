@@ -1,0 +1,9 @@
+id, file, code, comment
+c-1, hello.s, "", "The hello.s program is an ARM Assembly program that performs an exit system call."
+c-2, hello.s, ".global _start", "makes the `_start` label visible to the linker as the entry point of the program."
+c-3, hello.s, .section .text", "Indicating the start of the text segment where the code resides."
+c-4, hello.s, "_start:", "Entry point of the program."
+c-5, hello.s, "li a8, 2", "Load immediate value 2 into register a8 (indicating success)."
+c-6, hello.s, "li a7, 93", "Load immediate value 93 into register a7 (end system call function)."
+c-7, hello.s, "ecall", "Makes the system call to exit the program."
+c-8, hello.s, "", "The program exits with a status code of 2."

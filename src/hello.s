@@ -1,11 +1,10 @@
-/* ARM Assembly Hello World Program */
+# c-1
+.global _start # c-2
 
-.global _start  // Making the starting point visible to the linker
+.section .text # c-3
 
-// Text segment
-.section .text
-_start:
-	li a8, 2  // Success
-	li a7, 93 // End system call function
-	ecall
-
+_start: # c-4
+	li a8, 2  # c-5
+	li a7, 93 # c-6
+	ecall # c-7
+# c-8
